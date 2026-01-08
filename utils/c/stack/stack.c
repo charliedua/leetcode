@@ -1,7 +1,4 @@
-struct Stack {
-    int value;
-    struct Stack* prev;
-};
+#include "stack.h"
 
 void push(struct Stack** stack, int value) {
     struct Stack* temp = malloc(sizeof(struct Stack));
